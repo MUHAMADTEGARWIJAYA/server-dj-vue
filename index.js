@@ -18,7 +18,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(
   cors({
     credentials: true,
-    origin: ["http://localhost:5173", " "], 
+    origin: ["http://localhost:5173", "https://client-dj-vue.vercel.app/"], 
     methods: ["GET", "POST", "PUT", "DELETE", "PATCH", "OPTIONS"],
   })
 );
